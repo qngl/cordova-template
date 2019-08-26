@@ -1,0 +1,6 @@
+app_identifier "qngl.app1" # The bundle identifier dealer app
+apple_id "xxxxxxxxxxx@xxxxxxxxxxx.xxx" # Apple email address
+
+team_id "xxxxxxxxxxx" # Developer Portal Team ID
+
+# More information: https://docs.fastlane.tools/advanced/#appfile

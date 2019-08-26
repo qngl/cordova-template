@@ -1,0 +1,31 @@
+{
+  "config_ios" : {
+    "NSCameraUsageDescription": "拍摄要上传图片或扫描二维码",
+    "NSPhotoLibraryUsageDescription": "选择要上传的图片",
+    "NSLocationAlwaysUsageDescription": "需要使用您的位置信息",
+    "NSLocationWhenInUseUsageDescription": "需要使用您的位置信息",
+    "CFBundleDisplayName": "QNGLAPP",
+    "CFBundleName": "QNGLAPP"
+  },
+  "config_android" : {
+    "app_name": "QNGLAPP",
+    "launcher_name": "QNGLAPP",
+    "activity_name": "QNGLAPP"
+  },
+  "app" : {
+    "Choose_pictures_to_upload": "选择要上传的图片",
+    "Select_an_Album": "选择相簿",
+    "Pick_Photo": "选择相片",
+    "Pick_Photos": "选择相片",
+    "Maximum_d_photos.": "上限提示（%d）",
+    "You_can_only_select_d_photos_at_a_time.": "您一次最多选择%d张图片",
+    "Okay": "确定",
+    "Loading...": "加载中...",
+    "cancel": "取消",
+    "fingerprint_auth_dialog_title": "指纹登录",
+    "fingerprint_hint": "请触摸指纹传感器",
+    "fingerprint_not_recognized": "指纹验证失败，请重试",
+    "fingerprint_success": "指纹验证成功",
+    "fingerprint_description": "请触摸指纹传感器"
+  }
+}

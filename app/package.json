@@ -1,0 +1,82 @@
+{
+  "name": "qngl.app1",
+  "version": "1.0.0",
+  "displayName": "QNGL",
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-qrscanner": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-geolocation": {
+        "GEOLOCATION_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-device": {},
+      "cordova-plugin-compat": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-decimal-keyboard": {},
+      "cordova-plugin-localization-strings": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-image-picker": {
+        "PHOTO_LIBRARY_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-add-swift-support": {},
+      "cordova-plugin-nativestorage": {},
+      "cordova-plugin-live-face-check": {},
+      "cordova-plugin-keychain-touch-id": {},
+      "cordova-plugin-file-transfer": {},
+      "cordova-plugin-installer-apk": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-camera-preview": {},
+      "cordova-plugin-customurlscheme": {
+        "URL_SCHEME": "qnglapp",
+        "ANDROID_SCHEME": " ",
+        "ANDROID_HOST": " ",
+        "ANDROID_PATHPREFIX": "/"
+      },
+      "cordova-plugin-background-mode": {},
+      "cordova-plugin-push-cn": {},
+      "cordova-push-notification-huawei": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^6.4.0",
+    "cordova-browser": "^5.0.3",
+    "cordova-build-increment": "^0.1.0",
+    "cordova-ios": "^4.5.5",
+    "cordova-plugin-add-swift-support": "^1.7.2",
+    "cordova-plugin-background-mode": "^0.7.2",
+    "cordova-plugin-camera": "^4.0.3",
+    "cordova-plugin-camera-preview": "file:../xxplugins/cordova-plugin-camera-preview",
+    "cordova-plugin-compat": "~1.2.0",
+    "cordova-plugin-customurlscheme": "~4.3.0",
+    "cordova-plugin-decimal-keyboard": "../xxplugins/cordova-plugin-decimal-keyboard",
+    "cordova-plugin-device": "^1.1.7",
+    "cordova-plugin-file": "^6.0.1",
+    "cordova-plugin-file-transfer": "^1.7.1",
+    "cordova-plugin-geolocation": "^2.4.3",
+    "cordova-plugin-image-picker": "../xxplugins/cordova-plugin-image-picker",
+    "cordova-plugin-inappbrowser": "^3.0.0",
+    "cordova-plugin-installer-apk": "file:../xxplugins/cordova-plugin-installer-apk",
+    "cordova-plugin-keychain-touch-id": "file:../xxplugins/cordova-plugin-keychain-touch-id",
+    "cordova-plugin-live-face-check": "file:../xxplugins/cordova-plugin-live-face-check",
+    "cordova-plugin-nativestorage": "^2.3.2",
+    "cordova-plugin-network-information": "^1.3.4",
+    "cordova-plugin-push-cn": "file:../xxplugins/cordova-plugin-push-cn",
+    "cordova-plugin-qrscanner": "^2.5.0",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-statusbar": "^2.2.3",
+    "cordova-plugin-swift-support": "^3.1.1",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-push-notification-huawei": "file:../xxplugins/cordova-push-notification-huawei"
+  },
+  "devDependencies": {
+    "xcode": "^1.0.0"
+  }
+}

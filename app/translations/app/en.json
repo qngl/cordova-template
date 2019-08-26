@@ -1,0 +1,31 @@
+{
+  "config_ios" : {
+    "NSCameraUsageDescription": "Take pictures to upload or Scan QR codes.",
+    "NSPhotoLibraryUsageDescription": "Choose pictures to upload.",
+    "NSLocationAlwaysUsageDescription": "Wants to use your location data.",
+    "NSLocationWhenInUseUsageDescription": "Wants to use your location data.",
+    "CFBundleDisplayName": "QNGL APP",
+    "CFBundleName": "QNGL APP"
+  },
+  "config_android" : {
+    "app_name": "QNGL APP",
+    "launcher_name": "QNGL APP",
+    "activity_name": "QNGL APP"
+  },
+  "app" : {
+    "Choose_pictures_to_upload": "Choose pictures to upload",
+    "Select_an_Album": "Select an Album",
+    "Pick_Photo": "Pick Photo",
+    "Pick_Photos": "Pick Photos",
+    "Maximum_d_photos.": "Maximum %d photos.",
+    "You_can_only_select_d_photos_at_a_time.": "You can only select %d photos at a time.",
+    "Okay": "OK",
+    "Loading...": "Loading...",
+    "cancel": "Cancel",
+    "fingerprint_auth_dialog_title": "Fingerprint Login",
+    "fingerprint_hint": "Please touch the fingerprint",
+    "fingerprint_not_recognized": "Fingerprint login failed, please retry",
+    "fingerprint_success": "Fingerprint login successfully",
+    "fingerprint_description": "Confirm fingerprint to continue"
+  }
+}

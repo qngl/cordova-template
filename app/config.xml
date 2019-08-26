@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget defaultlocale="zh-cn" id="qngl.app1" ios-CFBundleVersion="1.0.0" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>QNGLAPP</name>
+    <description>
+        QNGL APP DESC
+    </description>
+    <author email="abc@126.com" href="https://xxxxxxxx">
+        QNGL APP DEV Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="unsafe:javascript:void(0)" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#ffffff" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="android-minSdkVersion" value="23" />
+        <preference name="android-targetSdkVersion" value="26" />
+        <preference name="Fullscreen" value="false" />
+        <preference name="LoadUrlTimeoutValue" value="600000" />
+        <preference name="KeepRunning" value="true" />
+        <preference name="AndroidPersistentFileLocation" value="Internal" />
+        <preference name="HuaweiPushAPPID" value="TOBERPLACED" />
+        <icon density="ldpi" src="../res/icon/android/icon-36-ldpi.png" />
+        <icon density="mdpi" src="../res/icon/android/icon-48-mdpi.png" />
+        <icon density="hdpi" src="../res/icon/android/icon-72-hdpi.png" />
+        <icon density="xhdpi" src="../res/icon/android/icon-96-xhdpi.png" />
+        <icon density="xxhdpi" src="../res/icon/android/icon-144-xxhdpi.png" />
+        <icon density="xxxhdpi" src="../res/icon/android/icon-192-xxxhdpi.png" />
+        <splash density="land-hdpi" src="../res/screen/android/screen-hdpi-landscape.png" />
+        <splash density="land-ldpi" src="../res/screen/android/screen-ldpi-landscape.png" />
+        <splash density="land-mdpi" src="../res/screen/android/screen-mdpi-landscape.png" />
+        <splash density="land-xhdpi" src="../res/screen/android/screen-xhdpi-landscape.png" />
+        <splash density="port-hdpi" src="../res/screen/android/screen-hdpi-portrait.png" />
+        <splash density="port-ldpi" src="../res/screen/android/screen-ldpi-portrait.png" />
+        <splash density="port-mdpi" src="../res/screen/android/screen-mdpi-portrait.png" />
+        <splash density="port-xhdpi" src="../res/screen/android/screen-xhdpi-portrait.png" />
+        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:allowBackup="false" />
+        </edit-config>
+    </platform>
+    <platform name="browser">
+        <preference name="ShowSplashScreen" value="false" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="Fullscreen" value="true" />
+        <preference name="iosPersistentFileLocation" value="Library" />
+        <preference name="BackupWebStorage" value="none" />
+        <icon height="120" src="../res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="57" src="../res/icon/ios/icon.png" width="57" />
+        <icon height="76" src="../res/icon/ios/icon-76.png" width="76" />
+        <icon height="72" src="../res/icon/ios/icon-72.png" width="72" />
+        <icon height="180" src="../res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="60" src="../res/icon/ios/icon-60.png" width="60" />
+        <icon height="152" src="../res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="40" src="../res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" src="../res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="114" src="../res/icon/ios/icon@2x.png" width="114" />
+        <icon height="144" src="../res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="167" src="../res/icon/ios/icon-167.png" width="167" />
+        <icon height="29" src="../res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" src="../res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" src="../res/icon/ios/icon-small@3x.png" width="87" />
+        <icon height="50" src="../res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" src="../res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="20" src="../res/icon/ios/icon-20.png" width="20" />
+        <icon height="167" src="../res/icon/ios/icon-83.5@2x.png" width="167" />
+        <icon height="1024" src="../res/icon/ios/icon-1024.png" width="1024" />
+        <splash src="../res/screen/ios/Default@2x~universal~anyany.png" />
+        <splash src="../res/screen/ios/Default@2x~universal~comany.png" />
+        <splash src="../res/screen/ios/Default@2x~universal~comcom.png" />
+        <splash src="../res/screen/ios/Default@3x~universal~anyany.png" />
+        <splash src="../res/screen/ios/Default@3x~universal~anycom.png" />
+        <splash src="../res/screen/ios/Default@3x~universal~comany.png" />
+        <config-file parent="CFBundleName" target="*-Info.plist">
+            <string>QNGLAPP</string>
+        </config-file>
+        <config-file parent="CFBundleDisplayName" target="*-Info.plist">
+            <string>QNGLAPP</string>
+        </config-file>
+    </platform>
+    <hook src="../hooks/clearSourceMaps.js" type="before_prepare" />
+    <hook src="../hooks/replaceStrings.js" type="before_prepare" />
+    <hook src="scripts/incrementBuildNum.js" type="before_build" />
+    <engine name="browser" spec="^5.0.3" />
+    <engine name="android" spec="^6.4.0" />
+    <engine name="ios" spec="^4.5.5" />
+    <plugin name="cordova-plugin-qrscanner" spec="^2.5.0" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-geolocation" spec="^2.4.3">
+        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value=" " />
+    </plugin>
+    <plugin name="cordova-plugin-device" spec="^1.1.7" />
+    <plugin name="cordova-plugin-compat" spec="~1.2.0" />
+    <plugin name="cordova-plugin-network-information" spec="^1.3.4" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-decimal-keyboard" spec="../xxplugins/cordova-plugin-decimal-keyboard" />
+    <plugin name="cordova-plugin-localization-strings" />
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <plugin name="cordova-plugin-image-picker" spec="../xxplugins/cordova-plugin-image-picker">
+        <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value=" " />
+    </plugin>
+    <plugin name="cordova-plugin-add-swift-support" spec="^1.7.2" />
+    <plugin name="cordova-plugin-nativestorage" spec="^2.3.2" />
+    <plugin name="cordova-plugin-keychain-touch-id" spec="file:../xxplugins/cordova-plugin-keychain-touch-id" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
+    <plugin name="cordova-plugin-installer-apk" spec="file:../xxplugins/cordova-plugin-installer-apk" />
+    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
+    <plugin name="cordova-plugin-camera-preview" spec="file:../xxplugins/cordova-plugin-camera-preview" />
+    <plugin name="cordova-plugin-customurlscheme" spec="~4.3.0">
+        <variable name="URL_SCHEME" value="qnglapp" />
+        <variable name="ANDROID_SCHEME" value=" " />
+        <variable name="ANDROID_HOST" value=" " />
+        <variable name="ANDROID_PATHPREFIX" value="/" />
+    </plugin>
+    <plugin name="cordova-plugin-background-mode" spec="^0.7.2" />
+    <plugin name="cordova-plugin-push-cn" spec="file:../xxplugins/cordova-plugin-push-cn" />
+    <plugin name="cordova-push-notification-huawei" spec="file:../xxplugins/cordova-push-notification-huawei" />
+</widget>
